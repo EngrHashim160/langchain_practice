@@ -1,16 +1,26 @@
+# LangChain Core
 langchain
-python-dotenv
-ipykernel
-beautifulsoup4
-langchain_community
-faiss-cpu
-streamlit
-langchain_groq
-langchain_core
-fastapi
-uvicorn
-langserve
-sse_starlette
+langchain-core
+
+# OpenAI Integration
+langchain-openai
+openai
+
+# Anthropic Integration
+langchain-anthropic
+
+# Google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+
+# Hugging Face Integration
+langchain-huggingface
 transformers
-langchain_huggingface
-langchain_chroma
+huggingface-hub
+
+# Environment Variable Management
+python-dotenv
+
+# Machine Learning Utilities
+numpy
+scikit-learn
