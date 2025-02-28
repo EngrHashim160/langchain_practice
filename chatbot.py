@@ -12,9 +12,12 @@ model = ChatGroq(
     model_name="llama3-8b-8192",  # Example model, choose the right one from Groq
 )
 
+chat_history = []
 while(True):
     user_input = input("You: ")
+    chat_history.append(user_input)
     if user_input == "exit":
         break
-    response = model.invoke(user_input)
+    response = model.invoke(chat_history)
+    chat_history.append(response.content)
     print(f"AI: {response.content}")
