@@ -2,7 +2,7 @@
 langchain
 langchain-core
 langchain_experimental
-chromadb
+langchain-chroma
 
 # OpenAI Integration
 langchain-openai

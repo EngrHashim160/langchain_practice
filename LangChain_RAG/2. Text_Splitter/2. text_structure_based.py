@@ -15,4 +15,4 @@ print(docs[0].page_content)
 
 result = splitter.split_documents(docs)
 
-print(result[0])
+print(result)

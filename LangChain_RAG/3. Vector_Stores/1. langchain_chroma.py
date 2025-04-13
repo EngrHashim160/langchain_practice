@@ -51,3 +51,13 @@ print(
 #         filter={"source": ''} # not proper in my case here...
 #     )
 # )
+
+# update the existing document
+# vector_store.update_document(
+#     document_id="",
+#     document=updated_document # declare this updated_document object
+# )
+
+# delete the document
+# vector_store.delete(ids=['']) # make changes accordingly
+
