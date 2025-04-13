@@ -6,7 +6,7 @@ load_dotenv()
 
 text_splitter = SemanticChunker(
     HuggingFaceEmbeddings(), breakpoint_threshold_type="standard_deviation",
-    breakpoint_threshold_amount=1
+    breakpoint_threshold_amount=0.5
 )
 
 sample = """
