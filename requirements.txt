@@ -3,6 +3,10 @@ langchain
 langchain-core
 langchain_experimental
 langchain-chroma
+chromadb
+faiss-cpu
+tiktoken
+wikipedia
 
 # OpenAI Integration
 langchain-openai
