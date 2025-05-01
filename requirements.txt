@@ -36,3 +36,4 @@ pydantic
 # built in tools
 duckduckgo_search
 langchain_experimental # for the built-in ShellTool
+requests
